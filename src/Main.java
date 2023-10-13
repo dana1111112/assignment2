@@ -4,6 +4,7 @@ public class Main {
         Notification smsNotification =new SMSNotification();
 
         Notification mesNotification =new MessengerNotification();
+
         sendNotification(EmailNotification);
         sendNotification(smsNotification);
 
@@ -13,6 +14,7 @@ public class Main {
 
     }
     private static void sendNotification(Notification notification) {
+
         notification.send();
     }
 }

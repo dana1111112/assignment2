@@ -5,6 +5,7 @@ public class EmailNotification implements Notification {
 
     }
     public EmailNotification(Notification notification) {
+
         this.notification = notification;
     }
 
